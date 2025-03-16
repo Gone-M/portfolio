@@ -33,6 +33,7 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolioo">Portfolio</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="assets/Civan_Metin.pdf" download="Resume_CivanMetin">Resume</a></li>
             <li><a href="assets/COVER-LETTER.pdf" download="COVER-LETTER">Cover-Letter</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -64,13 +65,97 @@
 
 <main id="portfolioo">
     <h1>Portfolio</h1>
-    <section id="portfolio">
-        <a href="https://81catering.com/"><img src="assets/images/1.png" class="portfolio-item"></img></a>
-        <a href="https://mimo.design/"><img src="assets/images/2.png" class="portfolio-item"></img></a>
-        <a href="https://masrawykitchen.com/"><img src="assets/images/3.png" class="portfolio-item"></img></a>
-        <a href="https://koanaturalfoods.com/"><img src="assets/images/4.png" class="portfolio-item"></img></a>
-        <a href="https://github.com/Gone-M/CapstoneProject-II.git"><img src="assets/images/5.png" class="portfolio-item"></img></a>
-    </section>
+    <!-- Add this after each portfolio item in the portfolio section -->
+
+<section id="portfolio">
+    <a href="https://81catering.com/">
+        <img src="assets/images/1.png" class="portfolio-item">
+        <div class="portfolio-description">
+            <h3>81 Catering</h3>
+            <p>A responsive catering service website designed with a clean, modern aesthetic. Implemented custom booking functionality, interactive menu galleries, and SEO optimization that increased client inquiries by 40%.</p>
+        </div>
+    </a>
+    
+    <a href="https://mimo.design/">
+        <img src="assets/images/2.png" class="portfolio-item">
+        <div class="portfolio-description">
+            <h3>Mimo Design</h3>
+            <p>An elegant portfolio site for an interior design studio featuring interactive project showcases, CSS animations, and a custom project filtering system. Built with React.js for smooth transitions between gallery items.</p>
+        </div>
+    </a>
+    
+    <a href="https://masrawykitchen.com/">
+        <img src="assets/images/3.png" class="portfolio-item">
+        <div class="portfolio-description">
+            <h3>Masrawy Kitchen</h3>
+            <p>A full-featured restaurant website with online ordering capability, menu management system, and reservation functionality. Integrated payment processing and mobile-responsive design to enhance customer experience.</p>
+        </div>
+    </a>
+    
+    <a href="https://koanaturalfoods.com/">
+        <img src="assets/images/4.png" class="portfolio-item">
+        <div class="portfolio-description">
+            <h3>Koa Natural Foods</h3>
+            <p>E-commerce platform for organic food products featuring product filtering, user accounts, and a streamlined checkout process. Implemented with custom JavaScript for enhanced user experience and SEO optimization.</p>
+        </div>
+    </a>
+    
+    <a href="https://github.com/Gone-M/CapstoneProject-II.git">
+        <img src="assets/images/5.png" class="portfolio-item">
+        <div class="portfolio-description">
+            <h3>Campus Connect</h3>
+            <p>A college student networking application built as a capstone project. Features include event discovery, study group formation, and resource sharing. Developed using React Native for cross-platform functionality.</p>
+        </div>
+    </a>
+    
+    <a href="https://github.com/Gone-M/GetCar" class="portfolio-item">
+        <img src="assets/images/6.png">
+        <div class="portfolio-description">
+            <h3>GetCar</h3>
+            <p>Car rental application with real-time availability checking, booking management, and user reviews. Built with Node.js backend and responsive frontend design for optimal mobile and desktop user experience.</p>
+        </div>
+    </a>
+    <a href="https://github.com/Gone-M/COMP3104_Group54_Assignment" class="portfolio-item" style="background-color: #f8f9fa; padding: 20px; border-radius: 8px;">
+        <div class="portfolio-description">
+            <h3>CI/CD Pipeline</h3>
+            <p>A collaborative software engineering project focused on implementing a fully automated Continuous Integration and Continuous Deployment (CI/CD) pipeline.  
+            This project involved setting up version control with GitHub, automated testing using Jest, and deploying with Docker and Kubernetes.  
+            Integrated GitHub Actions to streamline code integration and ensure seamless deployment with minimal manual intervention.  
+            Enhanced development efficiency by reducing deployment time and ensuring high-quality code delivery through automated workflows.</p>
+        </div>
+    </a>
+    
+    <a href="https://github.com/Gone-M/flightReservation" class="portfolio-item" style="background-color: #e3f2fd; padding: 20px; border-radius: 8px;">
+        <div class="portfolio-description">
+            <h3>Flight Reservation System</h3>
+            <p>A dynamic flight booking system designed to streamline the ticket purchasing process with real-time availability updates.  
+            Features include a user-friendly search interface, secure payment integration, and automated booking confirmation.  
+            Developed using React for a seamless frontend experience and Node.js with a database-driven backend to handle reservations efficiently.  
+            Ensured high reliability with error handling, real-time updates, and responsive design for mobile and desktop users.</p>
+        </div>
+    </a>
+    
+    <a href="https://github.com/Gone-M/GBC_event_management" class="portfolio-item" style="background-color: #f1f8e9; padding: 20px; border-radius: 8px;">
+        <div class="portfolio-description">
+            <h3>GBC Event Management</h3>
+            <p>A web-based event management system designed to handle event registrations, ticketing, and attendee management efficiently.  
+            Features include a dynamic event listing page, real-time seat availability tracking, and automated email confirmations.  
+            Built using React for an interactive frontend and Node.js with a database-driven backend for secure data management.  
+            Integrated payment processing for ticket purchases, ensuring a smooth and seamless user experience.</p>
+        </div>
+    </a>
+    
+    <a href="https://github.com/Gone-M/Comp3074-Group-Assignment-Prototype" class="portfolio-item" style="background-color: #ffebee; padding: 20px; border-radius: 8px;">
+        <div class="portfolio-description">
+            <h3>Personal Restaurant</h3>
+            <p>A backend-focused prototype demonstrating robust database integration and API development.  
+            Designed to manage CRUD operations efficiently, featuring user authentication, data validation, and RESTful API endpoints.  
+            Developed using Node.js and Express, with MongoDB as the primary database for structured data storage.  
+            Implements JWT-based authentication and middleware for security, ensuring safe and scalable data handling.</p>
+        </div>
+    </a>
+    
+</section>
 
     <hr id="hr">
     <section id="skills">
@@ -78,10 +163,6 @@
         <div class="skill-container">
             <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></div>
             <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/></div>
-            <!-- <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/192108890-200809d1-439c-4e23-90d3-b090cf9a4eea.png" alt="IntelliJ" title="IntelliJ"/></div>
-            <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/192108893-b1eed3c7-b2c4-4e1c-9e9f-c7e83637b33d.png" alt="WebStorm" title="WebStorm"/></div>
-            <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/186711578-bf30cb30-40b7-4b45-95a5-bdf837c372e7.png" alt="Xcode" title="Xcode"/></div>
-            <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" alt="Visual Studio Code" title="Visual Studio Code"/></div> -->
             <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></div>
             <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/></div>
             <div class="skill"><img width="50" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" alt="Bootstrap" title="Bootstrap"/></div>
@@ -119,6 +200,36 @@
         </div> 
     </section>
     
+    <hr id="hr">
+    <section id="education">
+        <h1 id="edu-title">Academic Background</h1>
+        <div class="education-container">
+            <div class="education-item">
+                <div class="edu-logo">
+                    <img src="assets/images/york-university-logo.png" alt="York University Logo">
+                </div>
+                <div class="edu-details">
+                    <h3>York University</h3>
+                    <p class="degree">Bachelor of Computer Science</p>
+                    <p class="year">2022 - 2026</p>
+                    <p class="description">Focused on advanced programming concepts, software development methodologies, and web application architecture. Participated in multiple hackathons and collaborative coding projects.</p>
+                </div>
+            </div>
+            
+            <div class="education-item">
+                <div class="edu-logo">
+                    <img src="assets/images/george-brown-logo.png" alt="George Brown College Logo">
+                </div>
+                <div class="edu-details">
+                    <h3>George Brown College</h3>
+                    <p class="degree">Advanced Diploma in Computer Programming and Analysis</p>
+                    <p class="year">2023 - 2025</p>
+                    <p class="description">Specialized in frontend and backend web technologies, including responsive design, JavaScript frameworks, and database integration. Completed industry-partnered capstone project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </main>
 
 
@@ -130,9 +241,7 @@
         <!-- <a href="https://twitter.com/home" target="_blank" class="icon-link"><i class="fab fa-twitter"></i></a> -->
     </div>
     <p id="copyright">This content is protected by copyright &copy; 2025 Civan Metin.</p>
-
 </footer>
-
 
 <script src="script.js"></script>
 

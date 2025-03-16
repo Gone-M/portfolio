@@ -1,9 +1,9 @@
 // Yazi animasyonu
-new TypeIt("#title", {
-    strings: "Find Your Way.",
-    speed: 100,
-    waitUntilVisible: true,
-}).go();
+// new TypeIt("#title", {
+//     strings: "Find Your Way.",
+//     speed: 100,
+//     waitUntilVisible: true,
+// }).go();
 
 
 //--------------------------------------------------------------
